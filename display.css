@@ -1,10 +1,10 @@
 .example {
   color: #FFF;
+  text-align: center; /* Isso só funciona por causa que cada <li> é tratada como um texto, graças a declaração display: inline */
 }
 
 .example-item {
-  width: 33.333%;
-  height: 150px;
+  display: inline;
 }
 
 .example-item_first {
@@ -17,4 +17,8 @@
 
 .example-item_third {
   background-color: #3B97D3;
+}
+
+h3 {
+  text-align: right;
 }
